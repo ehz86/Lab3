@@ -1,4 +1,3 @@
-package Lab5;
 import java.util.regex.*;
 import java.util.Scanner;
 public class Main {
@@ -31,12 +30,11 @@ public class Main {
                     System.out.print("Пароль не защищен");
                 }
             }
+
         } else {
             System.out.print("Пароль не защищен");
+
         }
+        in.close();
     }
 }
-
-
-
-
