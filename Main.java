@@ -33,7 +33,6 @@ public class Main {
 
         } else {
             System.out.print("Пароль не защищен");
-
         }
         in.close();
     }
